@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css%20coding%20space.css">
+    <title>MORE SPACE</title>
+</head>
+<body>
+    <div class = titleText> its not enough </div>
+    <div class = bigText> SPACE </div>
+    <script>
+        window.onload = function increaseBox()
+        {
+                window.setInterval(increaseWidth, 800);
+                window.setInterval(increaseLength, 800);
+        }
+        function increaseWidth() {
+            var x = 5;
+            document.getElementById("box").style.width = 10 px;
+        }
+        function increaseLength() {
+            var y = 5;
+            document.getElementById("box").style.height = 10 px;
+        }
+    </script>
+</body>
+</html>

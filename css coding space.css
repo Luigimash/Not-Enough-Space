@@ -1,0 +1,30 @@
+.titleText {
+    color:cadetblue;
+    font-size: 75px;
+    font-family: "Source Code Pro", cursive;
+    text-shadow: 2px 2px white, 4px 4px cadetblue;
+    font-style: italic;
+    text-align: center;
+}
+
+.bigText {
+    color:cadetblue;
+    font-size:  800px;
+    font-family: "Source Code Pro", cursive;
+    text-shadow: 6px 6px white, 8px 8px cadetblue;
+    font-style: italic;
+    text-align: center;
+    overflow: hidden;
+}
+
+.boxContainer {
+    width:100%;
+    height:100%;
+    border:1px solid;
+}
+
+.box {
+    border: 2px solid cornflowerblue;
+    position: center;
+}
+
